@@ -16,8 +16,8 @@ However, if on GUI, then you can use NetworManager's applet to define a connecti
 That approach does in fact store config for the connection into somewhere else than /etc/openvpn.
 1。安装openvpn
 sudo apt-get install openvpn
-2。将openvpn配置文件chenfu.ovpn 改为 chenfu.conf 放到/etc/openvpn/路径下
-3。systemctl start openvpn@chenfu.service 启动 此时ping 下看看
-4。systemctl enable openvpn@chenfu.service 开机自启动
+2。将openvpn配置文件foo.ovpn 改为 foo.conf 放到/etc/openvpn/路径下
+3。systemctl start openvpn@foo.service 启动 此时ping 下看看
+4。systemctl enable openvpn@foo.service 开机自启动
 
 ```
